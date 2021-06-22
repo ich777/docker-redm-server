@@ -1,4 +1,4 @@
-# FiveM Server in Docker optimized for Unraid
+# RedM Server in Docker optimized for Unraid
 With this Docker you can run RedM (Read Dead Redemption 2 V MOD SERVER) it will automatically download the latest version or if you want to updated it yourself set the 'Manual Updates' to 'true' (without quotes).
 The Docker will automatically extract it and download all other required files (resources, server.cfg).
 You can get fx.tar.xz from here: https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/

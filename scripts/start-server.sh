@@ -119,7 +119,7 @@ else
                 sleep infinity
             fi
             tar -xf fx.tar.xz
-            rm ${SERVER_DIR}/$LAT_V/fx.tar.xz
+            rm -R fx.tar.xz
             touch redminstalled-$LAT_V
         elif [ "$LAT_V" == "$CUR_V" ]; then
             echo "---RedM Version up-to-date---"
